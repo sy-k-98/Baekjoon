@@ -13,7 +13,7 @@ for _ in range(N-1):
     graph[b].append(a)
 test_case = list(map(int, input().split()))
 
-# BFS
+# 6. BFS
 queue = deque()
 queue.append(start)
 visited[start] = 0
